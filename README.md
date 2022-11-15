@@ -1,6 +1,6 @@
 # vue-holaluz
 
-This application is built using Vue.js framework.
+This is my first application built using Vue.js framework.
 
 For UI components used a library  https://picocss.com/
 
