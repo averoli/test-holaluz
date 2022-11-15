@@ -1,15 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <h1>Get enrolled with the rooftop revolution.</h1>
+  <SearchCups :clients="clients" />
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
-
+import SearchCups from "@/components/SearchCups";
+import clients from "@/api/clients";
 export default {
-  name: "App",
+  data() {
+    return { clients }
+  },
   components: {
-    HelloWorld,
+    SearchCups,
   },
 };
 </script>
