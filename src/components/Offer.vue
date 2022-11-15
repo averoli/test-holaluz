@@ -1,9 +1,8 @@
 <template>
-    <div>
-        <h2 v-if="offer">Your offer</h2>
+    <article v-if="offer">
+        <h2>Your offer</h2>
         <p>{{ offer }}</p>
-    </div>
-
+    </article>
 </template>
 
 <script>

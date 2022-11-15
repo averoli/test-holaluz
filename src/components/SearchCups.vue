@@ -1,12 +1,14 @@
 <template>
   <form @submit.prevent="onSubmit">
     <input type="text" v-model="title" placeholder="Enter your CUPS" />
-    <button type="submit" name="submit">
+    <button type="submit" name="submit" class="secondary">
       search
     </button>
+  </form>
+  <div class="grid">
     <ClientInfo :client="client" />
     <Offer :offer="offer" />
-  </form>
+  </div>
 </template>
 
 <script>
@@ -46,9 +48,9 @@ export default {
             this.power = supply_point.power)
         }
       })
-      this.sumInvoces(this.allNeighbors, this.power, supplyPoints, offerSpecial, offerStandart)
+      this.sumInvoces(this.allNeighbors, this.power, supplyPoints, offerSpecial, offerBasic, offerStandart)
     },
-    sumInvoces(neighbors, power, supplyPoints, offerSpecial, offerStandart) {
+    sumInvoces(neighbors, power, supplyPoints, offerSpecial, offerBasic, offerStandart) {
       let sum = 0;
       let sumP1 = 0;
       let sumP2 = 0
@@ -75,6 +77,6 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 
 </style>

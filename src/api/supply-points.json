@@ -2,7 +2,7 @@
   {
     "cups": "123456",
     "tariff": "One price",
-    "invoiced_amount": "150.00",
+    "invoiced_amount": "50.00",
     "power": {
       "p1": "4500",
       "p2": "4200"

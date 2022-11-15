@@ -1,6 +1,10 @@
 <template>
-  <h1>Get enrolled with the rooftop revolution.</h1>
-  <SearchCups :clients="clients" />
+    <main class="container">
+      <article>
+        <h1 class="">Get enrolled with the rooftop revolution.</h1>
+        <SearchCups :clients="clients" />
+      </article>
+    </main>
 </template>
 
 <script>
@@ -17,12 +21,4 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
