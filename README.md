@@ -1,16 +1,8 @@
 # vue-holaluz
 
-<!-- GETTING STARTED -->
-## Getting Started
+This application is built using Vue.js framework.
 
-### Prerequisites
-
-Update your npm to the latest version
-
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+For UI components used a library  https://picocss.com/
 
 ### Installation
 
@@ -35,9 +27,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-#� �t�e�s�t�-�h�o�l�a�l�u�z�
-�
-�
